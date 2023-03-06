@@ -1,0 +1,245 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://i.postimg.cc/Qt8PSNkT/photo-2023-03-07-00-02-27.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    
+}
+nav {
+    text-align: center;
+    position: relative;
+    margin: 15px auto 0;
+    width: 600px;
+    height: 50px;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 20%;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    backdrop-filter: blur(20px);
+}
+nav a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav .animation{
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    z-index: 0;
+    background: #fff;
+    width: 100px;
+    text-align: center;
+    border-radius: 2px;
+    transition: all .5s ease 0s;
+
+}
+a:nth-child(1){
+    width: 100px;
+}
+nav .start-home, a:nth-child(1):hover~.animation{
+    width: 140px;
+    left: 0;
+}
+a:nth-child(2){
+    width: 110px;
+}
+nav .start-login, a:nth-child(2):hover~.animation{
+    width: 115px;
+    left: 120px;
+}
+a:nth-child(3){
+    width: 100px;
+}
+nav .start-register, a:nth-child(3):hover~.animation{
+    width: 120px;
+    left: 225px;
+}
+a:nth-child(4){
+    width: 140px;
+}
+nav .start-main, a:nth-child(4):hover~.animation{
+    width: 120px;
+    left: 345px;
+}
+a:nth-child(5){
+    width: 100px;
+}
+nav .start-about, a:nth-child(5):hover~.animation{
+    width: 135px;
+    left: 465px;
+}
+
+.bg {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+
+.no-outline:focus {
+    outline: none;
+}
+
+.btn {
+    width: 70%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #13274F;
+}
+.btn:hover {
+    background: #13274F;
+    color: white;
+    transition-duration: 0.3s
+}
+
+.reg {
+    color: white;
+    
+}
+.reg:hover {
+    color:#13274F;
+    transition-duration: 0.3s
+}
+.bg2{
+    position: relative;
+    width: 400px;
+    height: 620px;
+    background: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    margin: 10px auto;
+    color: white;
+}
+
+.centerbox {
+    font-size: small;
+}
+.no-arrow::-webkit-outer-spin-button,
+.no-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  outline: none;
+}
+.btn2 {
+    width: 20%;
+    height: 20px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #13274F;
+}
+.btn2:hover:hover {
+    background: #13274F;
+    color: white;
+    transition-duration: 0.3s
+}
+.bg3{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    height: 50%;
+    color: white;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.1);
+  }
+
+  td,
+  th {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+  }
+  .bg4{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn3 {
+    width: 100px;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #13274F;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: -10%;
+
+}
+
+.btn3:hover:hover {
+    background: #13274F;
+    color: white;
+    transition-duration: 0.3s
+}
+
+.imagetop {
+    position: absolute;
+    margin-left: 15px;
+}
